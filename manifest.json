@@ -1,7 +1,10 @@
 {
     "manifest_version": 2,
-    "name": "Hex to RGB Converter",
-    "version": "1.0",
+    "name": "HEX to RGB Converter",
+    "version": "1.1",
+
+    "description": "A simple extension that allows you to convert HEX to RGB directly in the browser",
+    "author": "github.com/idnaumov",
   
     "browser_action": {
       "default_popup": "popup.html",
