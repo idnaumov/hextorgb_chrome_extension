@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: rgba(255, 255, 255, .4);
+}
+body {
+    width: 270px;
+    height: 290px;
+
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 35px;
+    width: 100%;
+    background: linear-gradient(111.8deg, #6A85E6 7.14%, #98A7ED 64.29%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+
+    border-radius: 0px 0px 4px 4px;
+
+    color: #fff;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.input-css {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-css.bottom {
+    margin-top: 15px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #B6B6BB;
+    width: 220px;
+}
+
+input[type="text"]:focus {
+    border: 1px solid #5A5A5F;
+    outline: none;
+}
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 8px 40px;
+    background: transparent;
+    transition: background-color .3s ease;
+    color: #6A85E6;
+    border-radius: 4px;
+    cursor: pointer;
+
+    border: 1px solid rgba(106, 133, 230, 255);
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+button:hover {
+    border: 1px solid rgba(106, 133, 230, 0);
+    color: #fff;
+    background-color: rgba(106, 133, 230, 255);
+    transition: all .3s ease;
+}
+
+.copy-icon {
+    margin-left: 5px;
+}
+#copy-icon {
+    stroke: rgba(106, 133, 230, 1);
+}
+#copy-icon.active {
+    stroke: rgba(106, 133, 230, 1);
+}
+.input__container {
+    padding: 0 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 15px;
+}
+
+.output__container {
+    padding: 0 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    margin-top: 15px;
+}
+.input-label {
+    font-size: 14px;
+    font-weight: 500;
+
+    margin-right: 10px;
+}
+.rgb-result {
+    font-size: 14px;
+}
+#rgb-output {
+    font-size: 16px;
+    font-weight: 500;
+}
+#copy-button {
+    margin-top: 15px;
+}
+#footer {
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    gap: 10px;
+}
+
+#footer a {
+    font-size: 14px;
+    text-decoration: none;
+
+    color: #c6c6cc;
+    transition: color .3s ease;
+}
+
+#footer p {
+color: #5A5A5F;
+}
+
+#footer a:hover {
+    color: #96969B;
+    transition: color .3s ease;
+}
