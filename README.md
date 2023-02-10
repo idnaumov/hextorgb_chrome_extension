@@ -3,13 +3,14 @@
 
 # How to install:
 1. Download [<b>latest release</b>](https://github.com/idnaumov/hextorgb_chrome_extension/releases/tag/realeses)
-2. <b>Open your browser</b> ( Google Chrome, Microsoft Edge, Chromium and etc )
-3. <b>Paste</b> the following into the adress bar:
+2. Unpack and place the "**hextorgb**" folder anywhere on your computer
+3. <b>Open your browser</b> ( Google Chrome, Microsoft Edge, Chromium and etc )
+4. <b>Paste</b> the following into the adress bar:
   - Google Chrome ( [<b>chrome://extensions</b>](chrome://extensions) )
   - Microsoft Edge ( [<b>edge://extensions</b>](chrome://extensions) )
-4. Enable - "<b>Developer Mode</b>"
-5. Click on the button - "<b>Upload extension</b>"
-6. In the window that opens, <b>select the downloaded archive</b>
+5. Enable - "<b>Developer Mode</b>"
+6. Click on the button - "<b>Upload extension</b>"
+7. In the window that opens, <b>select the "hextorgb" folder</b>
 6. Have a good use!
 
 # How to use?
