@@ -2,7 +2,7 @@
 <b>This tool will be useful for web developers who specify colors on the site in RGB format, although in many graphic editors the color is initially copied in HEX format.</b>
 
 # How to install:
-1. Download [<b>latest realese</b>](https://github.com/idnaumov/hextorgb_chrome_extension/releases/tag/realeses)
+1. Download [<b>latest release</b>](https://github.com/idnaumov/hextorgb_chrome_extension/releases/tag/realeses)
 2. <b>Open your browser</b> ( Google Chrome, Microsoft Edge, Chromium and etc )
 3. <b>Paste</b> the following into the adress bar:
   - Google Chrome ( [<b>chrome://extensions</b>](chrome://extensions) )
